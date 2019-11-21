@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs
+/Java
+/Net/Tutorial/MvcMovies/bin/Debug/netcoreapp2.2
+/Net/Tutorial/MvcMovies/.vs/MvcMovies
