@@ -1,0 +1,10 @@
+C:\Projects\GIT\Net\WCF\WcfServiceApp\WcfServiceApp\bin\WcfServiceApp.dll.config
+C:\Projects\GIT\Net\WCF\WcfServiceApp\WcfServiceApp\bin\WcfServiceApp.dll
+C:\Projects\GIT\Net\WCF\WcfServiceApp\WcfServiceApp\bin\WcfServiceApp.pdb
+C:\Projects\GIT\Net\WCF\WcfServiceApp\WcfServiceApp\bin\ServicePaymentContract.dll
+C:\Projects\GIT\Net\WCF\WcfServiceApp\WcfServiceApp\bin\ServicePaymentContract.pdb
+C:\Projects\GIT\Net\WCF\WcfServiceApp\WcfServiceApp\obj\PublishToNuget\WcfServiceApp.csprojAssemblyReference.cache
+C:\Projects\GIT\Net\WCF\WcfServiceApp\WcfServiceApp\obj\PublishToNuget\WcfServiceApp.csproj.CoreCompileInputs.cache
+C:\Projects\GIT\Net\WCF\WcfServiceApp\WcfServiceApp\obj\PublishToNuget\WcfServiceApp.csproj.CopyComplete
+C:\Projects\GIT\Net\WCF\WcfServiceApp\WcfServiceApp\obj\PublishToNuget\WcfServiceApp.dll
+C:\Projects\GIT\Net\WCF\WcfServiceApp\WcfServiceApp\obj\PublishToNuget\WcfServiceApp.pdb

@@ -1,0 +1,6 @@
+C:\Projects\GIT\Net\WCF\WcfServiceApp\ServicePaymentContract\bin\Debug\ServicePaymentContract.dll
+C:\Projects\GIT\Net\WCF\WcfServiceApp\ServicePaymentContract\bin\Debug\ServicePaymentContract.pdb
+C:\Projects\GIT\Net\WCF\WcfServiceApp\ServicePaymentContract\obj\Debug\ServicePaymentContract.csprojAssemblyReference.cache
+C:\Projects\GIT\Net\WCF\WcfServiceApp\ServicePaymentContract\obj\Debug\ServicePaymentContract.csproj.CoreCompileInputs.cache
+C:\Projects\GIT\Net\WCF\WcfServiceApp\ServicePaymentContract\obj\Debug\ServicePaymentContract.dll
+C:\Projects\GIT\Net\WCF\WcfServiceApp\ServicePaymentContract\obj\Debug\ServicePaymentContract.pdb

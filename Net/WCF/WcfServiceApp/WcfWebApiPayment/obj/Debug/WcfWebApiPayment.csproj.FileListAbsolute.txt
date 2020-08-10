@@ -1,0 +1,7 @@
+C:\Projects\GIT\Net\WCF\WcfServiceApp\WcfWebApiPayment\bin\WcfWebApiPayment.dll.config
+C:\Projects\GIT\Net\WCF\WcfServiceApp\WcfWebApiPayment\bin\WcfWebApiPayment.dll
+C:\Projects\GIT\Net\WCF\WcfServiceApp\WcfWebApiPayment\bin\WcfWebApiPayment.pdb
+C:\Projects\GIT\Net\WCF\WcfServiceApp\WcfWebApiPayment\obj\Debug\WcfWebApiPayment.csproj.CoreCompileInputs.cache
+C:\Projects\GIT\Net\WCF\WcfServiceApp\WcfWebApiPayment\obj\Debug\WcfWebApiPayment.dll
+C:\Projects\GIT\Net\WCF\WcfServiceApp\WcfWebApiPayment\obj\Debug\WcfWebApiPayment.pdb
+C:\Projects\GIT\Net\WCF\WcfServiceApp\WcfWebApiPayment\obj\Debug\WcfWebApiPayment.csprojAssemblyReference.cache

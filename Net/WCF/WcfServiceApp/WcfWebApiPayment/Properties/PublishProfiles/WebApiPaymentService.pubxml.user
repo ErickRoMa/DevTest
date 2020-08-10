@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\inetpub\Services\WebApiPaymentService</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/WcfWebApiPayment.dll">
+      <publishTime>08/04/2020 14:26:07</publishTime>
+    </File>
+    <File Include="bin/WcfWebApiPayment.pdb">
+      <publishTime>08/04/2020 14:26:07</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>08/04/2020 14:26:08</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/04/2020 13:11:02</publishTime>
+    </File>
+    <File Include="WebApiPayment.svc">
+      <publishTime>08/04/2020 13:05:38</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

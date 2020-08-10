@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\inetpub\Services\PaymentService</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/ServicePaymentContract.dll">
+      <publishTime>07/31/2020 21:39:40</publishTime>
+    </File>
+    <File Include="bin/ServicePaymentContract.pdb">
+      <publishTime>07/31/2020 21:39:40</publishTime>
+    </File>
+    <File Include="bin/WcfServiceApp.dll">
+      <publishTime>07/31/2020 21:39:41</publishTime>
+    </File>
+    <File Include="bin/WcfServiceApp.pdb">
+      <publishTime>07/31/2020 21:39:41</publishTime>
+    </File>
+    <File Include="PaymentSvc.svc">
+      <publishTime>07/31/2020 11:50:44</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>07/31/2020 21:39:41</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/31/2020 21:39:41</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

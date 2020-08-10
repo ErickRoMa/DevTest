@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\inetpub\Services\ConfigurationService</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/ServiceConfigurationContract.dll">
+      <publishTime>08/01/2020 23:37:41</publishTime>
+    </File>
+    <File Include="bin/ServiceConfigurationContract.pdb">
+      <publishTime>08/01/2020 23:37:41</publishTime>
+    </File>
+    <File Include="bin/WcfConfiguration.dll">
+      <publishTime>08/03/2020 10:44:15</publishTime>
+    </File>
+    <File Include="bin/WcfConfiguration.pdb">
+      <publishTime>08/03/2020 10:44:15</publishTime>
+    </File>
+    <File Include="ConfigurationSvc.svc">
+      <publishTime>08/01/2020 13:41:27</publishTime>
+    </File>
+    <File Include="packageSpec.nuspec">
+      <publishTime>08/01/2020 23:34:09</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>08/03/2020 10:44:16</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/01/2020 13:36:09</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
