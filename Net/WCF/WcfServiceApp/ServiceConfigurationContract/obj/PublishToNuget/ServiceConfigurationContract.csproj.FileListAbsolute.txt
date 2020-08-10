@@ -1,0 +1,6 @@
+C:\Projects\GIT\Net\WCF\WcfServiceApp\ServiceConfigurationContract\bin\PublishToNuget\ServiceConfigurationContract.dll
+C:\Projects\GIT\Net\WCF\WcfServiceApp\ServiceConfigurationContract\bin\PublishToNuget\ServiceConfigurationContract.pdb
+C:\Projects\GIT\Net\WCF\WcfServiceApp\ServiceConfigurationContract\obj\PublishToNuget\ServiceConfigurationContract.csprojAssemblyReference.cache
+C:\Projects\GIT\Net\WCF\WcfServiceApp\ServiceConfigurationContract\obj\PublishToNuget\ServiceConfigurationContract.csproj.CoreCompileInputs.cache
+C:\Projects\GIT\Net\WCF\WcfServiceApp\ServiceConfigurationContract\obj\PublishToNuget\ServiceConfigurationContract.dll
+C:\Projects\GIT\Net\WCF\WcfServiceApp\ServiceConfigurationContract\obj\PublishToNuget\ServiceConfigurationContract.pdb

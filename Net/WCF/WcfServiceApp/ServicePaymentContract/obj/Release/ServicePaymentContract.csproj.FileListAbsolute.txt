@@ -1,0 +1,5 @@
+C:\Projects\GIT\Net\WCF\WcfServiceApp\ServicePaymentContract\bin\Release\ServicePaymentContract.dll
+C:\Projects\GIT\Net\WCF\WcfServiceApp\ServicePaymentContract\bin\Release\ServicePaymentContract.pdb
+C:\Projects\GIT\Net\WCF\WcfServiceApp\ServicePaymentContract\obj\Release\ServicePaymentContract.csproj.CoreCompileInputs.cache
+C:\Projects\GIT\Net\WCF\WcfServiceApp\ServicePaymentContract\obj\Release\ServicePaymentContract.dll
+C:\Projects\GIT\Net\WCF\WcfServiceApp\ServicePaymentContract\obj\Release\ServicePaymentContract.pdb

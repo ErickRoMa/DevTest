@@ -1,0 +1,6 @@
+C:\Projects\GIT\Net\WCF\WcfServiceApp\ServiceConfigurationContract\bin\Release\ServiceConfigurationContract.dll
+C:\Projects\GIT\Net\WCF\WcfServiceApp\ServiceConfigurationContract\bin\Release\ServiceConfigurationContract.pdb
+C:\Projects\GIT\Net\WCF\WcfServiceApp\ServiceConfigurationContract\obj\Release\ServiceConfigurationContract.csproj.CoreCompileInputs.cache
+C:\Projects\GIT\Net\WCF\WcfServiceApp\ServiceConfigurationContract\obj\Release\ServiceConfigurationContract.dll
+C:\Projects\GIT\Net\WCF\WcfServiceApp\ServiceConfigurationContract\obj\Release\ServiceConfigurationContract.pdb
+C:\Projects\GIT\Net\WCF\WcfServiceApp\ServiceConfigurationContract\obj\Release\ServiceConfigurationContract.csprojAssemblyReference.cache

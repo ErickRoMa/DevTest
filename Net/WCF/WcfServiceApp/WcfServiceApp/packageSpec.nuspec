@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>WcfPaymentServiceContracts</id>
+    <version>1.0.0.4</version>
+    <description>Payment Services allows to have access to service operation available</description>
+    <authors>EROMA</authors>
+    <dependencies>
+      <group targetFramework=".NETFramework4.0" />
+      <group targetFramework=".NETFramework4.7.2" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\*.dll" target="lib\net40"/>
+    <file src="bin\*.dll" target="lib\net472"/>
+  </files>
+</package>

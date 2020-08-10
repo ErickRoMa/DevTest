@@ -1,0 +1,10 @@
+C:\Projects\GIT\Net\WCF\WcfServiceApp\WcfConfiguration\bin\WcfConfiguration.dll.config
+C:\Projects\GIT\Net\WCF\WcfServiceApp\WcfConfiguration\bin\WcfConfiguration.dll
+C:\Projects\GIT\Net\WCF\WcfServiceApp\WcfConfiguration\bin\WcfConfiguration.pdb
+C:\Projects\GIT\Net\WCF\WcfServiceApp\WcfConfiguration\bin\ServiceConfigurationContract.dll
+C:\Projects\GIT\Net\WCF\WcfServiceApp\WcfConfiguration\bin\ServiceConfigurationContract.pdb
+C:\Projects\GIT\Net\WCF\WcfServiceApp\WcfConfiguration\obj\Release\WcfConfiguration.csprojAssemblyReference.cache
+C:\Projects\GIT\Net\WCF\WcfServiceApp\WcfConfiguration\obj\Release\WcfConfiguration.csproj.CoreCompileInputs.cache
+C:\Projects\GIT\Net\WCF\WcfServiceApp\WcfConfiguration\obj\Release\WcfConfiguration.csproj.CopyComplete
+C:\Projects\GIT\Net\WCF\WcfServiceApp\WcfConfiguration\obj\Release\WcfConfiguration.dll
+C:\Projects\GIT\Net\WCF\WcfServiceApp\WcfConfiguration\obj\Release\WcfConfiguration.pdb
