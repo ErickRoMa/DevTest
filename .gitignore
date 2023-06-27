@@ -2,7 +2,11 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs
+obj
+bin
+**/.vs
+data.txt
+settings.json
+Nuget-Packages
+
 /Java
-/Net/Tutorial/MvcMovies/bin/Debug/netcoreapp2.2
-/Net/Tutorial/MvcMovies/.vs/MvcMovies
