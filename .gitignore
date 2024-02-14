@@ -10,3 +10,5 @@ settings.json
 Nuget-Packages
 
 /Java
+
+**/package-lock.json
