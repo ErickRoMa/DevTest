@@ -8,5 +8,5 @@ bin
 data.txt
 settings.json
 Nuget-Packages
-
+**/package-lock.json
 /Java
