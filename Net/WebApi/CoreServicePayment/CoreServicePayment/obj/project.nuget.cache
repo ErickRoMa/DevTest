@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "2HoBiQs9Y33DU/ciESyBzSCTBTubdP5xP9hOoKiABlNLx3OE1C3xPlIuuphhslkTpp+dq61DSGycgDw6zDARyQ==",
+  "dgSpecHash": "YV89bQNwjq+dkkelcKkreNbHziC5e3bl4O28DBbbfv+4PbZ0qXd6sl2vxEmVU4bpfrv+zXw8UGaBVroOOlIezQ==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\GIT\\Net\\WebApi\\CoreServicePayment\\CoreServicePayment\\CoreServicePayment.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/erickroma/Documents/Project/DevTest/Net/WebApi/CoreServicePayment/CoreServicePayment/CoreServicePayment.csproj",
+  "expectedPackageFiles": [
+    "/home/erickroma/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "/home/erickroma/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/home/erickroma/.nuget/packages/microsoft.netcore.app.host.linux-x64/3.1.32/microsoft.netcore.app.host.linux-x64.3.1.32.nupkg.sha512"
+  ],
   "logs": []
 }
