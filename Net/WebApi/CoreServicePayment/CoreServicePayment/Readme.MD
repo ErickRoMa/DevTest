@@ -7,9 +7,9 @@
    * Added .gitignore
    * Create Https Certificate:
         * dotnet dev-certs https --trust
-# How run:    
-    * Commands available to execute project:
-        * Restore dependencies :  dotnet build    
+# How run:
+   *   Commands available to execute project:
+    * Restore dependencies :  dotnet build    
         * Clean dependencies:  dotnet clean 
         * Execute project:  dotnet build
             * After run Follow Link : [Localhost](https://localhost:5001)
