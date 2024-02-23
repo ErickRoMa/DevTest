@@ -10,6 +10,7 @@
     "@types/node": "^20.11.20",
     "@types/react": "^18.2.57",
     "@types/react-dom": "^18.2.19",
+    "axios": "^1.6.7",
     "dependencies": "^0.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -36,9 +37,8 @@
       "not op_mini all"
     ],
     "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
+      "last 1 chrome version"      
     ]
-  }
+  },
+  "proxy": "https://localhost:5001"  
 }

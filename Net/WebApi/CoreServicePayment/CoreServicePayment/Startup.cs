@@ -27,6 +27,12 @@ namespace CoreServicePayment
         {
             services.AddControllers();
 
+            services.AddCors(c=>{                
+                c.AddDefaultPolicy( policy=> { policy.WithOrigins("http://localhost:3000"); });
+            });
+
+            
+
             services.AddSwaggerGen();
         }
 
@@ -57,6 +63,8 @@ namespace CoreServicePayment
             {
                 endpoints.MapControllers();
             });
+            
+            app.UseCors();
         }
     }
 }
