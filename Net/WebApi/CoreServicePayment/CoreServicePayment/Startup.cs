@@ -25,7 +25,13 @@ namespace CoreServicePayment
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            //From appSettings.Development.json
+            var DbConnection = Configuration.GetSection("DbConnection").Get<Domain.Contracts.Configurations.DbConnection>();
+            services.AddSingleton(DbConnection);
+
+            services.a
+
+                        
 
             services.AddCors(c=>{                
                 c.AddDefaultPolicy( policy=> { policy.WithOrigins("http://localhost:3000"); });

@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreServicePayment", "CoreServicePayment\CoreServicePayment.csproj", "{EC2CC904-694C-4BF0-A88B-F40059B86D13}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreServicePayment.Database", "CoreServicePayment.Database\CoreServicePayment.Database.csproj", "{F8135046-FFEE-46BD-A661-A6C61FFD4544}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreServicePayment.Domain", "CoreServicePayment.Domain\CoreServicePayment.Domain.csproj", "{C11BDE62-06E0-4430-BA4E-4DB03BE153BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{EC2CC904-694C-4BF0-A88B-F40059B86D13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC2CC904-694C-4BF0-A88B-F40059B86D13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC2CC904-694C-4BF0-A88B-F40059B86D13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8135046-FFEE-46BD-A661-A6C61FFD4544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8135046-FFEE-46BD-A661-A6C61FFD4544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8135046-FFEE-46BD-A661-A6C61FFD4544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8135046-FFEE-46BD-A661-A6C61FFD4544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C11BDE62-06E0-4430-BA4E-4DB03BE153BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C11BDE62-06E0-4430-BA4E-4DB03BE153BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C11BDE62-06E0-4430-BA4E-4DB03BE153BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C11BDE62-06E0-4430-BA4E-4DB03BE153BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

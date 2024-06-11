@@ -8,5 +8,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CoreServicePayment.Domain\CoreServicePayment.Domain.csproj" />
+    <ProjectReference Include="..\CoreServicePayment.Database\CoreServicePayment.Database.csproj" />
+  </ItemGroup>
+
 
 </Project>
