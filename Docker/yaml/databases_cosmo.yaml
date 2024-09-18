@@ -1,0 +1,21 @@
+# How execute file:
+# docker-compose -f oracle_database.yaml up -d
+# Connection-Data: DB: FREE  PASSWORD : oraclePassword  | Users : SYS, SYSTEM and PDBADMIN  | host: localhost
+name: cosmo.database.compose
+services:
+
+  cosmo-database:
+    hostname: cosmodb
+    image: mcr.microsoft.com/cosmosdb/windows/azure-cosmos-emulator #Download size > 6  GB
+    restart: always
+    ports:
+     - 8081:8081
+     - 10250-10255:10250-10255
+    environment:
+     ORACLE_ALLOW_REMOTE: true
+     ORACLE_PWD: oraclePassword
+    volumes:
+     - db-data:/var/lib/cosmodb/data
+
+volumes:
+  db-data:    

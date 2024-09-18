@@ -1,0 +1,39 @@
+Podman Install:
+	https://podman.io/
+:::::::::::::::::::::::Images:::::::::::::::::::::::
+
+:::::::::::::::::::::::ApacheDs:::::::::::::::::::::::
+*	podman pull openfrontier/apacheds
+*	podman pull openmicroscopy/apacheds:latest
+		docker/podman run --name ldapApacheDs -d -p 10389:10389 -p 10636:10636 openmicroscopy/apacheds
+
+:::::::::::::::::::::::Sql Server:::::::::::::::::::::::		
+* 	podman pull mcr.microsoft.com/mssql/server:2022-latest
+		podman run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=adminAdmin123" -p 1433:1433 --name sqlServer --hostname sqlServer -d mcr.microsoft.com/mssql/server:2022-latest
+
+	note: servername : 127.0.0.1,1433     -> 127.0.0.1 == localhost
+	      Login: sa : Password: adminAdmin123
+
+
+:::::::::::::::::::::::tomcat:::::::::::::::::::::::		
+*	podman pull tomcat
+		podman run -it --rm tomcat:latest
+		podman run -it --rm -p 8888:8080 tomcat:latest
+		
+		* podman run --name tomCat -d -it --rm -p 8888:8080 tomcat:latest
+		You can test it by visiting http://container-ip:8080 in a browser or, if you need access outside the host, on port 8888:
+
+:::::::::::::::::::::::POSTGRES:::::::::::::::::::::::
+*	podman pull postgres:latest
+		podman run --name postgres -e POSTGRES_PASSWORD=adminAdmin123 -d -p 5432:5432 postgres
+
+*	podman pull dpage/pgadmin4:latest
+		podman run --name pgadmin -e PGADMIN_DEFAULT_EMAIL=test@email.com -e PGADMIN_DEFAULT_PASSWORD=adminAdmin123 -d -p 443:443 dpage/pgadmin4:latest
+
+:::::::::::::::::::::::Images:::::::::::::::::::::::
+
+:::::::::::::::::::::::Commands:::::::::::::::::::::::
+    -- list container pulled
+    podman ps -a 
+    podman stop sql1
+    podman start sql1

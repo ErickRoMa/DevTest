@@ -1,0 +1,20 @@
+# How execute file:
+# docker-compose -f oracle_database.yaml up -d
+# Connection-Data: DB: FREE  PASSWORD : oraclePassword  | Users : SYS, SYSTEM and PDBADMIN  | host: localhost
+name: oracle.database.compose
+services:
+
+  oracle-database:
+    hostname: oracledb
+    image: container-registry.oracle.com/database/free:latest
+    restart: always
+    ports:
+     - 1521:1521
+    environment:
+     ORACLE_ALLOW_REMOTE: true
+     ORACLE_PWD: oraclePassword
+    volumes:
+     - db-data:/var/lib/oracle/data
+
+volumes:
+  db-data:    

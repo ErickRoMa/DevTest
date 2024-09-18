@@ -1,0 +1,25 @@
+# How execute file:
+# Dep : https://directory.apache.org/studio/download/download-windows.html
+# docker-compose -f databases.yaml up -d
+name: ldap.compose
+
+networks:
+  my-network:
+   driver: bridge
+
+services:
+  apacheds: #user: uid=admin,ou=system password: secret
+    hostname: apacheds
+    image: openfrontier/apacheds:latest
+    restart: always
+    ports:
+      - 10389:389
+      - 10636:636
+    networks:
+     - my-network
+    volumes:
+      - db-data:/var/lib/apacheds  
+    
+volumes:
+  db-data:
+    driver: local

@@ -1,0 +1,64 @@
+# How execute file:
+# docker-compose -f databases.yaml up -d
+name: database.compose
+
+networks:
+  db-network:
+   driver: bridge
+
+services:
+  sqlserver-database:
+    hostname: sqlserverdb
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    networks:
+     - db-network
+    restart: always
+    ports:
+     - "1433:1433"
+    environment:
+     ACCEPT_EULA: Y
+     MSSQL_SA_PASSWORD: adminAdmin123
+    healthcheck:
+     test: ["CMD", "/opt/mssql-tools/bin/sqlcmd", "-S", "http://localhost:1433", "-U", "sa", "-P", "adminAdmin123", "-Q", "SELECT ':::::Running from Container:::::'", "||", "exit 1"]
+     interval: 30s
+     timeout: 60s
+     retries: 5
+     start_period: 80s    
+    volumes:
+     - db-data:/var/lib/sqlserver/data
+
+  postgres-database:
+    hostname: postgresdb
+    image: postgres:latest
+    networks:
+     - db-network
+    restart: always
+    ports:
+     - 5432:5432
+    environment:
+     POSTGRES_PASSWORD: postgres
+    healthcheck:
+     test: ["CMD-SHELL", "pg_isready"]
+     interval: 30s
+     timeout: 60s
+     retries: 5
+     start_period: 80s    
+    volumes:
+     - db-data:/var/lib/postgresql/data  
+
+  # Client or Driver connection must have contains values as : allowPublicKeyRetrieval=True && useSSL=false 
+  # This definition does not contains volumes assigned because it raise a initialize exception.
+  #host: localhost | database: mysql | username: root
+  mysql-database:
+    hostname: mysql
+    image: mysql:latest
+    networks:
+     - db-network
+    restart: always
+    ports:
+     - 3306:3306    
+    environment:
+     MYSQL_ROOT_PASSWORD: password
+              
+volumes:
+  db-data:

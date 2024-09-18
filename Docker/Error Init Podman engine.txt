@@ -1,0 +1,12 @@
+Error Init Podman engine
+show connections
+
+	podman system connection ls
+
+remove connections
+
+	podman system connection rm {connection_name}
+
+podman machine init
+
+podman machine start

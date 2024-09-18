@@ -1,0 +1,17 @@
+# How execute file:
+# docker-compose -f server.yaml up -d
+name: server.compose
+services:
+
+  #You can test it by visiting http://container-ip:8080 in a browser or, if you need access outside the host, on port 8081:
+  tomcat:
+    hostname: tomcat
+    image: tomcat:jre17
+    restart: always
+    ports:
+     - 8081:8080
+    volumes:
+     - db-data:/var/lib/tomcat/data
+       
+volumes:
+  db-data:    
